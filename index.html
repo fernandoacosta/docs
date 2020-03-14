@@ -7,6 +7,11 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <style type="text/css">
+    .img50 {
+      max-width: 600px;
+    }
+  </style>
 </head>
 <body>
   <div id="app">Carregando...</div>
@@ -14,8 +19,8 @@
     window.$docsify = {
       loadSidebar: true,
       name: 'FernandoAcosta.net',
-      repo: 'https://github.com/fernandoacosta/docs',
-      coverpage: true,
+      repo: '',
+      coverpage: false,
       maxLevel: 2,
       subMaxLevel: 2,
       nameLink: 'https://fernandoacosta.net',
@@ -24,12 +29,23 @@
         buttonText: 'Copiar',
         errorText: 'Falhou...',
         successText: 'Copiado'
+      },
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto', // or 'auto'
+        placeholder: 'Faça uma busca',
+        noData: 'Ops! Nada encontrado. Você pode tentar outros termos ou entrar em contato comigo por e-mail: contato@fernandoacosta.net',
+        // Headline depth, 1 - 6
+        depth: 5,
+        hideOtherSidebarContent: true, // whether or not to hide other sidebar content
       }
     }
   </script>
+
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>

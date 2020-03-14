@@ -1,0 +1,1 @@
+reducao-estoque.md
