@@ -9,13 +9,27 @@
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">Carregando...</div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      loadSidebar: true,
+      name: 'FernandoAcosta.net',
+      repo: 'https://github.com/fernandoacosta/docs',
+      coverpage: true,
+      maxLevel: 2,
+      subMaxLevel: 2,
+      nameLink: 'https://fernandoacosta.net',
+      themeColor: '#F2295B',
+      copyCode: {
+        buttonText: 'Copiar',
+        errorText: 'Falhou...',
+        successText: 'Copiado'
+      }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
 </body>
 </html>
