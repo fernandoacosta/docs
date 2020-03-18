@@ -1,5 +1,5 @@
 * [Começando](/)
-* [Simulador de Frete](simulador-frete.md)
+* [Simulador de Frete](simulador-frete/)
 * [Tabela de frete Offline](frete-offline.md)
 * [Correios Declaração de Conteúdo](declaracao-conteudo.md)
 * [Simulador de Parcelas](simulador-parcelas.md)

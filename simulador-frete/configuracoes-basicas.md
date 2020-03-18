@@ -1,4 +1,4 @@
-## Configurações básicas
+# Configurações básicas
 
 As configurações ficam dentro do seu painel, em WooCommerce -> Configurações -> Produtos -> Simulador de Frete.
 
